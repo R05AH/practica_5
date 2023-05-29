@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: grid;
+    background-color: green;
+}
+
+#it1{
+
+}
+
+#it2{
+    
+}
+
+#it3{
+    
+}
+
+#it4{
+    
+}
+
+#it5{
+    
+}
