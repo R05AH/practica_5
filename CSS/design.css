@@ -7,24 +7,36 @@
 .padre{
     display: grid;
     background-color: green;
+    grid-template-areas: 'header header header'
+    'aside body aside1'
+    'footer footer footer';
 }
 
 #it1{
-
+    background-color: aqua;
+    height: 200px;
+    grid-area: header;
 }
 
 #it2{
-    
+    background-color: blueviolet;
+    grid-area: aside;
+    height: 315px;
+
 }
 
 #it3{
-    
+    background-color: chartreuse;
+    grid-area: body;
 }
 
 #it4{
-    
+    background-color: chocolate;
+    grid-area: aside1;
 }
 
 #it5{
-    
+    background-color: brown;
+    height: 200px;
+    grid-area: footer;
 }
